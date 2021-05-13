@@ -1,0 +1,764 @@
+[
+    {
+        "cv_name": "Applicant1.docx",
+        "cv_text": "APPLICANT 1\n\n\n\n\n\n\n\nEXPERIENCE\n\n\tCompany 1\t     Royal Oak, MI\n\n\tSales Support Intern\tMay 2017 - August 2017\n\n\tReview customer complaints\n\n\tFollow up with customers to ensure customer satisfaction\n\n\tData entry\n\n\tContact business customers to inform of rate changes\n\n\t\n\n\tCompany 2                                                                                                                                                        Rochester Hills, MI\t\n\n\tSales Representative for Meijer products                                                                                                                April 2016 - May 2017\n\nEncourage Sales through live product demonstrations\n\nEngaged with customers\n\nGave out samples for customers\n\nClean up and meal preparation\n\n\n\nCompany 3\t\t\t\t\t\t\t                                          Madison Heights, MI\n\nSeasonal Park Attendant\t\t\t\t\t\t                                                May 2010 – September 2014\n\nCustomer greeter and tour guide\n\nMaintained park facilities and grounds\n\nCleaned restrooms, emptied trash barrels\n\nAnswered telephone calls\n\n\n\n\tCompany 4\n\n\tRec Aide\t                               Troy MI\n\nClean equipment in weight room\t\t\t\t                                              November 2015 – March 2016\n\nGive tours for are new customers that come in\n\nRecommended to customers on what deals would work for them\n\nFix Customers issues\n\n\n\n\n\nEDUCATION\n\nDavenport University\n\nAcademic coursework towards B.A in Marketing\t\t\t\t\t\t\t              Warren, MI\n\nCurrent GPA: 2.0\t\t\t\t\t\t\t\t\t     September 2017- present\n\nGraduation Date December 2012\t\t\t\t\t\t\t\n\n\n\nOakland Community College\t\t\t\t\t\t                                                          Auburn Hills, MI\n\nAcademic coursework towards B.A in Marketing\t\t\t                                                              September 2014 – August 2017\n\nCurrent GPA: 3.5\n\nDean’s List, January, 2015 – January 2017\n\n\n\n\n\n  SKILLS AND CERTIFICATIONS\n\nProficient in all Microsoft programs (Microsoft Outlook, Microsoft Word, Microsoft Excel, Microsoft PowerPoint, and Microsoft Access).\n\nCertification of completion from Comcast Business Services.\n\nAssociate’s Degree in Business Administration.",
+        "experience": {
+            "text": "Company 1\t     Royal Oak, MI  \tSales Support Intern\tMay 2017 - August 2017  \tReview customer complaints  \tFollow up with customers to ensure customer satisfaction  \tData entry  \tContact business customers to inform of rate changes  \t  \tCompany 2                                                                                                                                                        Rochester Hills, MI\t  \tSales Representative for Meijer products                                                                                                                April 2016 - May 2017  Encourage Sales through live product demonstrations  Engaged with customers  Gave out samples for customers  Clean up and meal preparation Company 3\t\t\t\t\t\t\t                                          Madison Heights, MI  Seasonal Park Attendant\t\t\t\t\t\t                                                May 2010 – September 2014  Customer greeter and tour guide  Maintained park facilities and grounds  Cleaned restrooms, emptied trash barrels  Answered telephone calls Company 4  \tRec Aide\t                               Troy MI  Clean equipment in weight room\t\t\t\t                                              November 2015 – March 2016  Give tours for are new customers that come in  Recommended to customers on what deals would work for them  Fix Customers issues ",
+            "relevant_exp": {
+                "relevant_exp_score": 1.0,
+                "analysis": [
+                    {
+                        "keyword": "sales",
+                        "occurrences": [
+                            "Company 1      Royal Oak, MI   Sales Support Intern    Review customer complaints   Follow up with customers to ensure customer satisfaction",
+                            "  Data entry   Contact business customers to inform of rate changes      Company 2                                                                                                                                                        Rochester Hills, MI    Sales Representative for Meijer products                                                                                                                  Encourage Sales through live product demonstrations  "
+                        ]
+                    },
+                    {
+                        "keyword": "support",
+                        "occurrences": [
+                            "Company 1      Royal Oak, MI   Sales Support Intern    Review customer complaints   Follow up with customers to ensure customer satisfaction"
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Company 1      Royal Oak, MI   Sales Support Intern    Review customer complaints   Follow up with customers to ensure customer satisfaction",
+                        "target_text": "Driving sales and customer satisfaction within retail stores location on various wireless products,accessories and service to customers.",
+                        "score": "0.023"
+                    }
+                ],
+                "final_syntactic_match_score": 0.01725
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9369459508254081
+            },
+            "final_exp_score": 1.954195950825408
+        },
+        "skills": {
+            "text": "Proficient in all Microsoft programs (Microsoft Outlook, Microsoft Word, Microsoft Excel, Microsoft PowerPoint, and Microsoft Access).  Certification of completion from Comcast Business Services.  Associate’s Degree in Business Administration. ",
+            "syntactic_match": {
+                "analysis": [],
+                "final_syntactic_match_score": 0.0
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.927720354595682
+            },
+            "final_skills_score": 0.927720354595682
+        },
+        "exp_duration": {
+            "workspan": [
+                "April 2016 - May 2017",
+                "November 2015 – March 2016",
+                "May 2017 - August 2017",
+                "May 2010 – September 2014"
+            ],
+            "exp_duration_score": 2.9514240000000007
+        },
+        "education": {
+            "education_score": 2,
+            "text": "Davenport University  Academic coursework towards B.A in Marketing\t\t\t\t\t\t\t              Warren, MI  Current GPA  2.0\t\t\t\t\t\t\t\t\t     September 2017- present  Graduation Date December 2012 Oakland Community College\t\t\t\t\t\t                                                          Auburn Hills, MI  Academic coursework towards B.A in Marketing\t\t\t                                                              September 2014 – August 2017  Current GPA  3.5  Dean’s List, January, 2015 – January 2017 ",
+            "qualification": "Higher Degree"
+        },
+        "total_score": 7.833340305421091
+    },
+    {
+        "cv_name": "Applicant2.docx",
+        "cv_text": "APPLICANT 2\n\n\n\n\n\n\tSUMMARY\n\n\tSeeking a challenging opportunity in a fast-paced and demanding environment; to utilize educational background, incorporate skills to meet the needs of your organization, to demonstrate the ability of creating innovative business solutions while maximizing quality, efficiency, and customer satisfaction.\n\n\t\n\n\tEDUCATION\n\n\tBachelors of Science, Computer Science, Ramapo College of New Jersey (In Progress)\n\n\t\n\n\t\n\n\tEXPERIENCE\n\n\t\n\n\tSatellite Communications Operator\t\t\t\t\t    2012 - 2017                              \n\n\tCompany 1\n\n\t\n\n\tProvide communication services through multimillion dollar terminals to users across the world while providing the highest level of customer service to help with any troubleshooting issues that arise. Accountability at all times of equipment, personnel, as well as conducting daily inventories in preparation for rigorous inspections.\n\n\tDuties, Accomplishments and Related Skills:\n\n\tDirectly mentor and train coworkers\n\n\tHeld billet intended for higher enlisted and excelled\n\n\tLetter of Appreciation for volunteering\n\n\t3 Personal awards for initiative, doing work above pay grade\n\n\t\n\n\tWatch Repairmen, Sales Representative\t\t                         2011 - 2012\n\n\tCompany 2 \n\n\t\n\n\tDynamic position where needs of customers were always put first. Multi-tasking at all times balancing sales, customer service, and the repairing clients personal items while surpassing goals of the store from a customer satisfaction standpoint as well as financial.\n\n\tDuties, Accomplishments and Related Skills:\n\n\t\tProvide the highest level of customer service available to all customers \n\n\t\tAttention to detail in fixing watches.\n\n\t\tEngaging customers to provide them their needs.\n\n\t\n\n\tSales Leader, Customer Service Representative\t\t\t\t    2010 - 2011\n\n\tCompany 3\n\n\t\n\n\tFamily owned business where customer experience is key to maintaining steady flow of business and directly up revenue. Building relations with clients, while mentoring new employees on proper sales and customer service etiquette. Handled all marketing, and advertising needs as well as creating and maintaining schedules for all employees.\n\n\tDuties, Accomplishments and Related Skills:\n\n\tTrained new employees once hired on store goals as well as sales.\n\n\tInteract with customers to gain the right to earn their business.\n\n\tDirectly in charge of store marketing and advertising.\n\n\tConsistently achieved and surpassed store goals \n\n\t\n\n\tAreas of Expertise:\n\n\tCustomer Service Driven, Time and Personnel Management, Efficient Administrative Abilities, Ambitious, Innovative, Intelligent Oral Expression, Microsoft Office Applications, Attention to Detail, Client Relations, Critical Thinker\n\n\t\n\n\t\n\n\tReferences:\n\n\tUpon Request",
+        "experience": {
+            "text": "Satellite Communications Operator\t\t\t\t\t    2012 - 2017                                \tCompany 1  \t  \tProvide communication services through multimillion dollar terminals to users across the world while providing the highest level of customer service to help with any troubleshooting issues that arise. Accountability at all times of equipment, personnel, as well as conducting daily inventories in preparation for rigorous inspections.  \tDuties, Accomplishments and Related Skills   \tDirectly mentor and train coworkers  \tHeld billet intended for higher enlisted and excelled  \tLetter of Appreciation for volunteering  \t3 Personal awards for initiative, doing work above pay grade  \t  \tWatch Repairmen, Sales Representative\t\t                         2011 - 2012  \tCompany 2   \t  \tDynamic position where needs of customers were always put first. Multi-tasking at all times balancing sales, customer service, and the repairing clients personal items while surpassing goals of the store from a customer satisfaction standpoint as well as financial.  \tDuties, Accomplishments and Related Skills   \t\tProvide the highest level of customer service available to all customers   \t\tAttention to detail in fixing watches.  \t\tEngaging customers to provide them their needs.  \t  \tSales Leader, Customer Service Representative\t\t\t\t    2010 - 2011  \tCompany 3  \t  \tFamily owned business where customer experience is key to maintaining steady flow of business and directly up revenue. Building relations with clients, while mentoring new employees on proper sales and customer service etiquette. Handled all marketing, and advertising needs as well as creating and maintaining schedules for all employees.  \tDuties, Accomplishments and Related Skills   \tTrained new employees once hired on store goals as well as sales.  \tInteract with customers to gain the right to earn their business.  \tDirectly in charge of store marketing and advertising.  \tConsistently achieved and surpassed store goals   \t  \tAreas of Expertise   \tCustomer Service Driven, Time and Personnel Management, Efficient Administrative Abilities, Ambitious, Innovative, Intelligent Oral Expression, Microsoft Office Applications, Attention to Detail, Client Relations, Critical Thinker ",
+            "relevant_exp": {
+                "relevant_exp_score": 0.5,
+                "analysis": [
+                    {
+                        "keyword": "sales",
+                        "occurrences": [
+                            "  Duties, Accomplishments and Related Skills    Directly mentor and train coworkers   Held billet intended for higher enlisted and excelled   Letter of Appreciation for volunteering   3 Personal awards for initiative, doing work above pay grade      Watch Repairmen, Sales Representative                              Company 2       Dynamic position where needs of customers were always put first.",
+                            "Multi-tasking at all times balancing sales, customer service, and the repairing clients personal items while surpassing goals of the store from a customer satisfaction standpoint as well as financial.",
+                            "     Sales Leader, Customer Service Representative           Company 3      Family owned business where customer experience is key to maintaining steady flow of business and directly up revenue.",
+                            "Building relations with clients, while mentoring new employees on proper sales and customer service etiquette.",
+                            "  Duties, Accomplishments and Related Skills    Trained new employees once hired on store goals as well as sales."
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Multi-tasking at all times balancing sales, customer service, and the repairing clients personal items while surpassing goals of the store from a customer satisfaction standpoint as well as financial.",
+                        "target_text": "Driving sales and customer satisfaction within retail stores location on various wireless products,accessories and service to customers.",
+                        "score": "0.086"
+                    },
+                    {
+                        "source_text": "Building relations with clients, while mentoring new employees on proper sales and customer service etiquette.",
+                        "target_text": "Driving sales and customer satisfaction within retail stores location on various wireless products,accessories and service to customers.",
+                        "score": "0.066"
+                    }
+                ],
+                "final_syntactic_match_score": 0.056999999999999995
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9399464874648058
+            },
+            "final_exp_score": 1.4969464874648057
+        },
+        "skills": {
+            "text": "",
+            "syntactic_match": {
+                "final_syntactic_match_score": 0,
+                "analysis": []
+            },
+            "semantic_match": {
+                "analysis": [],
+                "final_semantic_match_score": 0
+            },
+            "final_skills_score": 0
+        },
+        "exp_duration": {
+            "workspan": [
+                "2011 - 2012",
+                "2010 - 2011",
+                "2012 - 2017"
+            ],
+            "exp_duration_score": 3.161139200000001
+        },
+        "education": {
+            "education_score": 1,
+            "text": "Bachelors of Science, Computer Science, Ramapo College of New Jersey (In Progress) ",
+            "qualification": "Associate Degree"
+        },
+        "total_score": 5.658085687464807
+    },
+    {
+        "cv_name": "Applicant3.docx",
+        "cv_text": "APPLICANT 3\n\n\n\nCertified Nursing Assistant\n\n\n\nI've done everything from customer service to Nursing Assistant and am interested in both fields.\n\nAuthorized to work in the US for any employer\n\n\n\nWORK EXPERIENCE\n\n\n\nCertified Nursing Assistant\n\nCompany 1  - September 2015 to August 2016\n\nI aided a variety of individuals in multiple daily task.\n\nCertified Nursing Assistant\n\nCompany 2  - March 2015 to June 2016\n\nI provide quality Home Health Care to a variety of individuals.\n\n\tCertified Nursing Assistant\t\n\nCompany 3 - Fayetteville, NC - February 2014 to February 2015\n\nI provided quality care to elder residence within the facility.\n\nCustomer Service Associate\n\nCompany 4 - January 2012 to February 2014\n\nMy role as a Customer Service Associate was to make sure each and every customers needs where met so\n\nthat they always left with a smile on their face.\n\nCrew Member\n\nCompany 5  - May 2011 to January 2012\n\nMy role as a McDonalds Crew Member consisted of making sure each customer recieved the correct orders\n\nand that their meals were fresh and prepped neatly. I was also responsible for\n\nstocking and sanitation within the restaurant.\n\n\n\nEDUCATION\n\n\n\nPhysical Therapy\n\nFayetteville Technical Community College - Fayetteville, NC\n\n2016 to 2018\n\n\n\nSKILLS\n\n\n\nExcellent Communication Skills (6 years), Excellent Customer Service Skills (6 years), Multi-Tasking (6\n\nyears), Certified Nursing Assistant (3 years), Team Player (6 years), Quick Learner (6 years), Ability to\n\nproduce quality work no matter the quantity. (6 years), I'm extremely reliable when it comes to work (6 years)\n\n\n\nCERTIFICATIONS\n\n\n\nCertified Nursing Assistant\n\nApril 2014 to April 2016\n\nADDITIONAL INFORMATION\n\nI love working!",
+        "experience": {
+            "text": "Certified Nursing Assistant  Company 1  - September 2015 to August 2016  I aided a variety of individuals in multiple daily task.  Certified Nursing Assistant  Company 2  - March 2015 to June 2016  I provide quality Home Health Care to a variety of individuals.  \tCertified Nursing Assistant\t  Company 3 - Fayetteville, NC - February 2014 to February 2015  I provided quality care to elder residence within the facility.  Customer Service Associate  Company 4 - January 2012 to February 2014  My role as a Customer Service Associate was to make sure each and every customers needs where met so  that they always left with a smile on their face.  Crew Member  Company 5  - May 2011 to January 2012  My role as a McDonalds Crew Member consisted of making sure each customer recieved the correct orders  and that their meals were fresh and prepped neatly. I was also responsible for  stocking and sanitation within the restaurant. ",
+            "relevant_exp": {
+                "relevant_exp_score": 0.0,
+                "analysis": []
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [],
+                "final_syntactic_match_score": 0.0
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9322925817811042
+            },
+            "final_exp_score": 0.9322925817811042
+        },
+        "skills": {
+            "text": "Excellent Communication Skills (6 years), Excellent Customer Service Skills (6 years), Multi-Tasking (6  years), Certified Nursing Assistant (3 years), Team Player (6 years), Quick Learner (6 years), Ability to  produce quality work no matter the quantity. (6 years), I'm extremely reliable when it comes to work (6 years)  Certified Nursing Assistant  April 2014 to April 2016  ADDITIONAL INFORMATION  I love working! ",
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Excellent Communication Skills (6 years), Excellent Customer Service Skills (6 years),",
+                        "target_text": "Great customer service skills",
+                        "score": "0.133"
+                    },
+                    {
+                        "source_text": "Multi-Tasking (6  years), Certified Nursing Assistant (3 years), Team Player (6 years), Quick Learner (6 years), Ability to  produce quality work no matter the quantity.",
+                        "target_text": "Ability to produce quality work no matter the quantity. ",
+                        "score": "0.238"
+                    },
+                    {
+                        "source_text": "(6 years), I'm extremely reliable when it comes to work (6 years)  ",
+                        "target_text": "Extremely reliable when it comes to work.",
+                        "score": "0.418"
+                    },
+                    {
+                        "source_text": "I love working!",
+                        "target_text": "love working",
+                        "score": "1.000"
+                    }
+                ],
+                "final_syntactic_match_score": 0.3354375
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9382976596440689
+            },
+            "final_skills_score": 1.273735159644069
+        },
+        "exp_duration": {
+            "workspan": [
+                "January 2012 to February 2014",
+                "May 2011 to January 2012",
+                "September 2015 to August 2016",
+                "March 2015 to June 2016",
+                "February 2014 to February 2015"
+            ],
+            "exp_duration_score": 2.9514240000000007
+        },
+        "education": {
+            "education_score": 1,
+            "text": "Physical Therapy  Fayetteville Technical Community College - Fayetteville, NC  2016 to 2018 ",
+            "qualification": "Associate Degree"
+        },
+        "total_score": 6.157451741425175
+    },
+    {
+        "cv_name": "Applicant4.docx",
+        "cv_text": "APPLICANT 4\n\n\n\n\n\n\n\n\n\nSUMMARY\n\n\n\nMotivated individual with background in retail store environment employed as a stock clerk.  Punctual and responsible with high ambition to seek challenges within the work environment; well-liked by co-workers and supervisors, work well with a team, and am always willing to assist others with a variety of  other job tasks; current in computer technology with strong organizational skills; seeking a position to apply my skills, experience and commitment to job excellence.\n\n\n\n\n\nSKILLS AND QUALIFICATIONS\n\n\n\nComputer technology skills include Microsoft Word and Excel; Internet research and Email setups\n\nStrong customer service skills and experience\n\nEffective speaking and writing communication skills\n\nMulti-tasking skills - ability to prioritize assignments and meet deadlines\n\nExcellent organizational skills; excellent record keeping and filing skills\n\nKnowledgeable in Marketing techniques \n\nExperienced in organizing and displaying merchandise in a popular retail store setting\n\nWork well within a team setting\n\nChallenged to learn new tasks with a positive attitude\n\n\n\n\n\nEMPLOYMENT\n\n\n\nCompany 1, Greensboro, NC\t\t\t\t\t\t                                   07/2014 – 01/2015\n\nStock Clerk\n\nFold, steam items for setting up clothing and accessories displays\n\nAttach sensors to clothing and accessories items before placing in retail store\n\nMonitor merchandise for retail store to ensure all sizes are fully stocked and displayed\n\nStock items in storage room and continuously ensure it is well-organized\n\n\n\nCompany 2, Durham, NC                                                                                                                     01/2016 – Present\n\nSales Associate\n\nAssist customers with merchandise and transactions\n\nSet-up the front of the store for new inventory\n\nKeep front of the store nice and tidy\n\n\n\nCompany 3, Durham, NC                                                                                                                   02/2016 – Present\n\nSales Associate\n\nManage the furniture, assist customers with items from stock\n\nRecover items and place them in their correct location\n\nWork overnights to stock merchandise\n\nUnpack the Delivery truck and neatly place them in the back room\n\n\n\n\n\n\n\nEDUCATION\n\n\n\nNorth Carolina Central University, Durham, NC\t\t\t\t\t\t         08/2016 – Present\n\nMajoring in Criminal Justice\n\n\n\nGuilford Technical Community College, Greensboro, NC\t\t\t\t\t                          08/2015\n\nCompleted General Studies transfer courses \n\n\n\nWalter Hines Page High School, Greensboro, NC\t\t\t                                                08/2011 - 06/2015\n\nGraduated high school diploma (concentration in Marketing)",
+        "experience": {
+            "text": "Company 1, Greensboro, NC\t\t\t\t\t\t                                   07/2014 – 01/2015  Stock Clerk  Fold, steam items for setting up clothing and accessories displays  Attach sensors to clothing and accessories items before placing in retail store  Monitor merchandise for retail store to ensure all sizes are fully stocked and displayed  Stock items in storage room and continuously ensure it is well-organized Company 2, Durham, NC                                                                                                                     01/2016 – Present  Sales Associate  Assist customers with merchandise and transactions  Set-up the front of the store for new inventory  Keep front of the store nice and tidy Company 3, Durham, NC                                                                                                                   02/2016 – Present  Sales Associate  Manage the furniture, assist customers with items from stock  Recover items and place them in their correct location  Work overnights to stock merchandise  Unpack the Delivery truck and neatly place them in the back room ",
+            "relevant_exp": {
+                "relevant_exp_score": 1.0,
+                "analysis": [
+                    {
+                        "keyword": "retail",
+                        "occurrences": [
+                            "Attach sensors to clothing and accessories items before placing in retail store",
+                            " Monitor merchandise for retail store to ensure all sizes are fully stocked and displayed  Stock items in storage room and continuously ensure it is well-organized Company 2, Durham, NC"
+                        ]
+                    },
+                    {
+                        "keyword": "sales",
+                        "occurrences": [
+                            "                                                                                                                      Sales Associate  ",
+                            "Keep front of the store nice and tidy Company 3, Durham, NC                                                                                                                     Sales Associate  "
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Attach sensors to clothing and accessories items before placing in retail store",
+                        "target_text": "Develop and manage positive business relationship with retail store management and employees.",
+                        "score": "0.062"
+                    },
+                    {
+                        "source_text": " Monitor merchandise for retail store to ensure all sizes are fully stocked and displayed  Stock items in storage room and continuously ensure it is well-organized Company 2, Durham, NC",
+                        "target_text": "Develop and manage positive business relationship with retail store management and employees.",
+                        "score": "0.047"
+                    },
+                    {
+                        "source_text": "Assist customers with merchandise and transactions  Set-up the front of the store for new inventory",
+                        "target_text": "Assist customers with merchandise and transactions",
+                        "score": "0.371"
+                    },
+                    {
+                        "source_text": "Manage the furniture, assist customers with items from stock  ",
+                        "target_text": "Assist customers with merchandise and transactions",
+                        "score": "0.109"
+                    }
+                ],
+                "final_syntactic_match_score": 0.1104375
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9404205489237072
+            },
+            "final_exp_score": 2.050858048923707
+        },
+        "skills": {
+            "text": "Computer technology skills include Microsoft Word and Excel; Internet research and Email setups  Strong customer service skills and experience  Effective speaking and writing communication skills  Multi-tasking skills - ability to prioritize assignments and meet deadlines  Excellent organizational skills; excellent record keeping and filing skills  Knowledgeable in Marketing techniques   Experienced in organizing and displaying merchandise in a popular retail store setting  Work well within a team setting  Challenged to learn new tasks with a positive attitude ",
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Strong customer service skills and experience  ",
+                        "target_text": "Strong customer service skills and experience",
+                        "score": "1.000"
+                    },
+                    {
+                        "source_text": "Effective speaking and writing communication skills  Multi-tasking skills - ability to prioritize assignments and meet deadlines  ",
+                        "target_text": "Effective speaking and writing communication skills",
+                        "score": "0.359"
+                    },
+                    {
+                        "source_text": "Excellent organizational skills; excellent record keeping and filing skills  Knowledgeable in Marketing techniques   Experienced in organizing and displaying merchandise in a popular retail store setting  Work well within a team setting  Challenged to learn new tasks with a positive attitude",
+                        "target_text": "positive attitude and dynamic interpersonal skills",
+                        "score": "0.031"
+                    }
+                ],
+                "final_syntactic_match_score": 0.3475
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9504666402116715
+            },
+            "final_skills_score": 1.2979666402116714
+        },
+        "exp_duration": {
+            "workspan": [
+                "01/2016 – Present",
+                "02/2016 – Present",
+                "07/2014 – 01/2015"
+            ],
+            "exp_duration_score": 2.9514240000000007
+        },
+        "education": {
+            "education_score": 2,
+            "text": "North Carolina Central University, Durham, NC\t\t\t\t\t\t         08/2016 – Present  Majoring in Criminal Justice Guilford Technical Community College, Greensboro, NC\t\t\t\t\t                          08/2015  Completed General Studies transfer courses Walter Hines Page High School, Greensboro, NC\t\t\t                                                08/2011 - 06/2015  Graduated high school diploma (concentration in Marketing) ",
+            "qualification": "Higher Degree"
+        },
+        "total_score": 8.30024868913538
+    },
+    {
+        "cv_name": "Applicant5.docx",
+        "cv_text": "APPLICANT 5\n\n\n\nSUMMARY \n\nEight years experience in medical coding and insurance.\n\nProficient in Microsoft applications and computer knowledge \n\nDetail oriented \n\nSkilled in Microsoft Office applications \n\nTyping 75-80 WPM\n\n\n\nEXPERIENCE\n\n\n\nCompany 1  \t\t                      \t\tWinston-Salem, NC     Sep 2016 - Dec 2017\n\nSystem Analyst\n\nProject Coordinator \n\nOffice application\n\nSubmits system request for certain systems for employee to access different drives. Insured that the right amount of access was given as a part of the Risk Management team.\n\n\n\nCompany 2 \t\t \t\t\t\tWinston-Salem, NC\tSep 2015 – Apr 2016\n\nCustomer Service \n\nInsurance sales\n\nClaims agent \n\nTook calls from customers who needed assistance understanding their policy, submitted claims, and assist medical providers with information on patient policies. \n\n\n\nCompany 3  \t\t\t\t\tColumbia, SC\t Jan 2012 - Aug 2014\n\nTeam Lead/Supervisor\t\t\t\t\t \n\nAssisting customers with payments, upgrades, scheduled tech visits, troubleshot Internet, phone, and television issues, answered phones, and assisted customers with billing needs. I also unlock and opened the doors on certain days at the beginning and end of shifts. \n\n\n\nEDUCATION \n\n Ashford University 2 Years in Computer Programs\t 4.1 GPA \tFeb 2010 - Dec 2012",
+        "experience": {
+            "text": "Company 1  \t\t                      \t\tWinston-Salem, NC     Sep 2016 - Dec 2017  System Analyst  Project Coordinator   Office application  Submits system request for certain systems for employee to access different drives. Insured that the right amount of access was given as a part of the Risk Management team. Company 2 \t\t \t\t\t\tWinston-Salem, NC\tSep 2015 – Apr 2016  Customer Service   Insurance sales  Claims agent   Took calls from customers who needed assistance understanding their policy, submitted claims, and assist medical providers with information on patient policies. Company 3  \t\t\t\t\tColumbia, SC\t Jan 2012 - Aug 2014  Team Lead/Supervisor\t\t\t\t\t   Assisting customers with payments, upgrades, scheduled tech visits, troubleshot Internet, phone, and television issues, answered phones, and assisted customers with billing needs. I also unlock and opened the doors on certain days at the beginning and end of shifts. ",
+            "relevant_exp": {
+                "relevant_exp_score": 1.0,
+                "analysis": [
+                    {
+                        "keyword": "sales",
+                        "occurrences": [
+                            "Company 2        Winston-Salem, NC   Customer Service   Insurance sales  "
+                        ]
+                    },
+                    {
+                        "keyword": "internet",
+                        "occurrences": [
+                            "Company 3       Columbia, SC    Team Lead/Supervisor        Assisting customers with payments, upgrades, scheduled tech visits, troubleshot Internet, phone, and television issues, answered phones, and assisted customers with billing needs."
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Company 3       Columbia, SC    Team Lead/Supervisor        Assisting customers with payments, upgrades, scheduled tech visits, troubleshot Internet, phone, and television issues, answered phones, and assisted customers with billing needs.",
+                        "target_text": "Assist customers with merchandise and transactions",
+                        "score": "0.020"
+                    }
+                ],
+                "final_syntactic_match_score": 0.015
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9335413066205
+            },
+            "final_exp_score": 1.9485413066205
+        },
+        "skills": {
+            "text": "",
+            "syntactic_match": {
+                "final_syntactic_match_score": 0,
+                "analysis": []
+            },
+            "semantic_match": {
+                "analysis": [],
+                "final_semantic_match_score": 0
+            },
+            "final_skills_score": 0
+        },
+        "exp_duration": {
+            "workspan": [
+                "Sep 2015 – Apr 2016",
+                "Jan 2012 - Aug 2014",
+                "Sep 2016 - Dec 2017"
+            ],
+            "exp_duration_score": 2.6892800000000006
+        },
+        "education": {
+            "education_score": 1,
+            "text": "Ashford University 2 Years in Computer Programs\t 4.1 GPA \tFeb 2010 - Dec 2012 ",
+            "qualification": "Associate Degree"
+        },
+        "total_score": 5.6378213066205
+    },
+    {
+        "cv_name": "Applicant6.docx",
+        "cv_text": "APPLICANT 6\n\n\n\nQualifications\n\n\n\n5.5 years experience in a call center for a major wireless company\n\n \n\n12 years experience as a driver-routing/time management, product delivery, product maintenance, quality customer service, great communication skills, have many hours on the road in both rural areas and cities. Have experience in rehab of homes (painting, minor sheet rock repairs, lawn maintenance, debris removal, lock changes, boarding of broken windows, minor plumbing and other household maintenance). Cleaned homes for make ready sales and move ins\n\n\n\nExperience\n\n\n\nCOMPANY 1: Tech Support/Sales and Service/Billing support\n\nFrom: May 2012 to present\n\n5.5 years experience in a call center for a major wireless company using multiple computer systems and multiple departments ( ATS Advanced tech support / Commitments dept. / Sales and Service ) helping customers with billing issues to solve any questions about charges plan details to find the perfect resolutions for that customer also walking customers thru tech issues using programs that the company provided to solve any issues of  multiple devices and manufactures \n\n\n\nCOMPANY 2\n\nFrom: 2004 to 2010\n\nJob Duties;\n\nTraveled the state of New Mexico, and lower half of Colorado, locating and securing homes for national Mortgage companies. Was also involved in the rehab of homes ( painting, lawn maintenance, minor plumbing, other household maintenance. )..Cleaned homes for make ready sales and move ins.\n\n\n\nCOMPANY 3\n\nFrom: 2003 to 2004\n\nJob Duties; \n\nTraveled the Southern half of the state of California locating and securing homes for national Mortgage companies in both rural areas and cities. Was also involved in the rehab of homes (painting, lawn maintenance, minor plumbing, and other household maintenance.) Cleaned homes for make ready sales and move inns.\n\n\n\nCOMPANY 4\n\nFrom: 1997 to 1999\n\nJob Duties;\n\nWorked as a labor for the first 3 months;(sanding, taping, clean up, and loading paint) than got promoted to lead painter overseeing a group of 12 delegating tasks and running equipment.\n\n\n\nCOMPANY 5: Driver \n\nFrom: 1993 to 1997\n\nJob Duties;\n\n4 years driving for XXX (furniture store) out of Texas;\n\nDelivered and set up any merchandise as needed, performed maintenance on all merchandise,\n\nDe-escalated customer complaints.\n\n\n\nEducation\n\n\n\nMarch 10, 1995 obtained GED from Region 16 education service center of Amarillo, Texas.\n\n\n\n\n\nReferences Available Upon Request",
+        "experience": {
+            "text": "COMPANY 1  Tech Support/Sales and Service/Billing support  From  May 2012 to present  5.5 years experience in a call center for a major wireless company using multiple computer systems and multiple departments ( ATS Advanced tech support / Commitments dept. / Sales and Service ) helping customers with billing issues to solve any questions about charges plan details to find the perfect resolutions for that customer also walking customers thru tech issues using programs that the company provided to solve any issues of  multiple devices and manufactures COMPANY 2  From  2004 to 2010  Job Duties;  Traveled the state of New Mexico, and lower half of Colorado, locating and securing homes for national Mortgage companies. Was also involved in the rehab of homes ( painting, lawn maintenance, minor plumbing, other household maintenance. )..Cleaned homes for make ready sales and move ins. COMPANY 3  From  2003 to 2004  Job Duties;   Traveled the Southern half of the state of California locating and securing homes for national Mortgage companies in both rural areas and cities. Was also involved in the rehab of homes (painting, lawn maintenance, minor plumbing, and other household maintenance.) Cleaned homes for make ready sales and move inns. COMPANY 4  From  1997 to 1999  Job Duties;  Worked as a labor for the first 3 months;(sanding, taping, clean up, and loading paint) than got promoted to lead painter overseeing a group of 12 delegating tasks and running equipment. COMPANY 5  Driver   From  1993 to 1997  Job Duties;  4 years driving for XXX (furniture store) out of Texas;  Delivered and set up any merchandise as needed, performed maintenance on all merchandise,  De-escalated customer complaints. ",
+            "relevant_exp": {
+                "relevant_exp_score": 1.5,
+                "analysis": [
+                    {
+                        "keyword": "wireless",
+                        "occurrences": [
+                            "From    5.5 years experience in a call center for a major wireless company using multiple computer systems and multiple departments ( ATS Advanced tech support / Commitments dept. /"
+                        ]
+                    },
+                    {
+                        "keyword": "sales",
+                        "occurrences": [
+                            "COMPANY 1  Tech Support/Sales and Service/Billing support  ",
+                            "Sales and Service ) helping customers with billing issues to solve any questions about charges plan details to find the perfect resolutions for that customer also walking customers thru tech issues using programs that the company provided to solve any issues of  multiple devices and manufactures COMPANY 2  ",
+                            "Cleaned homes for make ready sales and move ins.",
+                            "Cleaned homes for make ready sales and move inns."
+                        ]
+                    },
+                    {
+                        "keyword": "support",
+                        "occurrences": [
+                            "COMPANY 1  Tech Support/Sales and Service/Billing support  ",
+                            "From    5.5 years experience in a call center for a major wireless company using multiple computer systems and multiple departments ( ATS Advanced tech support / Commitments dept. /"
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [],
+                "final_syntactic_match_score": 0.0
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9279533286397852
+            },
+            "final_exp_score": 2.427953328639785
+        },
+        "skills": {
+            "text": "5.5 years experience in a call center for a major wireless company     12 years experience as a driver-routing/time management, product delivery, product maintenance, quality customer service, great communication skills, have many hours on the road in both rural areas and cities. Have experience in rehab of homes (painting, minor sheet rock repairs, lawn maintenance, debris removal, lock changes, boarding of broken windows, minor plumbing and other household maintenance). Cleaned homes for make ready sales and move ins ",
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "5.5 years experience in a call center for a major wireless company     12 years experience as a driver-routing/time management, product delivery, product maintenance, quality customer service, great communication skills, have many hours on the road in both rural areas and cities.",
+                        "target_text": "Great customer service skills",
+                        "score": "0.047"
+                    }
+                ],
+                "final_syntactic_match_score": 0.035250000000000004
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.928649574691301
+            },
+            "final_skills_score": 0.963899574691301
+        },
+        "exp_duration": {
+            "workspan": [
+                "May 2012 to present",
+                "2003 to 2004",
+                "1993 to 1997",
+                "1997 to 1999",
+                "2012 to present",
+                "2004 to 2010"
+            ],
+            "exp_duration_score": 3.970485209482066
+        },
+        "education": {
+            "education_score": 0,
+            "text": "March 10, 1995 obtained GED from Region 16 education service center of Amarillo, Texas. References Available Upon Request ",
+            "qualification": "No Education"
+        },
+        "total_score": 7.362338112813152
+    },
+    {
+        "cv_name": "Applicant7.docx",
+        "cv_text": "APPLICANT 7\n\n \n\nEducation\n\nAssociate\n\nDegree Name: Associate of Arts\nDegree Status: Now Attending\nGraduation Date: 06/2017\nSchool Name: Central Carolina Community College\n\nCountry: USA\nState: NC\nMajor: Business Administration\n\n\n\nLicenses, Certifications and Clearance\n\nParalegal\n\n\n\nWork Experience\n\n\n\nCOMPANY 1\n\nJob Title: CUSTOMER SERVICE REP\n\nCurrent Employer: No\nStart Date: 05/2015\nEnd Date: 12/2016\n\n\nResponsibilities and Qualifications:\nInteracts with 75+ customers over the phone daily. Actively listens to customer issues or questions, displaying compassion and empathy for the caller's situation. Processes billing requests, policy changes that do not require a license, resolves customer concerns and documents customer's requests. Ensure facilitation of first call resolution and customer satisfaction on all transactions. Acknowledge and direct customer's requests for additional products or services. Handle requests regarding required documentation and clearly explain any need for follow up on the customer's part.\n\n\nReason for Leaving:\nRelocated\n\n\n\nCOMPANY 2\n\nJob Title: Bank Teller\n\nCurrent Employer: No\nStart Date: 07/2014\nEnd Date: 04/2015\n\n\nResponsibilities and Qualifications:\n● Provides account services to customers by receiving deposits and loan payments; cashing checks; issuing savings withdrawals; recording night and mail deposits; selling cashier's checks, traveler's checks, and series e bonds; answering questions in person or on telephone; referring to other bank services. ● Records transactions by logging cashier's checks, traveler's checks, and other special services; preparing currency transaction reports. ● Cross-sells bank products by answering inquiries; informing customers of new services and product promotions; ascertaining customers' needs; directing customers to a branch representative. ● Reconciles cash drawer by proving cash transactions; counting and packaging currency and coins; reconciling loan coupons and other transactions; turning in excess cash and mutilated currency to head teller; maintaining supply of cash and currency. ● Complies with bank operations and security procedures by participating in all dual-control functions; maintaining customer traffic surveys; auditing other tellers' currency; assisting in certification of proof. ● Maintains customer confidence and protects bank operations by keeping information confidential. ● Contributes to team effort by accomplishing related results as needed.\n\n\nReason for Leaving:\nWas offered a full time position with another company.\n\n\n\nCOMPANY 3\n\nJob Title: Paralegal Specialist\n\nCurrent Employer: Yes\nStart Date: 11/2012\nEnd Date: \n\n\nResponsibilities and Qualifications:\nProvides legal and administrative support in all areas of criminal law, international law, civil/administration law, contract law and fiscal law. Assists judges, Judge Advocates and unit commanders with a wide range of legal matters and judicial work. Provides legal documents in courts-martial, Article 15 actions, and other military justice matters. Review line of duty determinations, AR 15-6 investigations, separation board proceedings, and other administrative law matters. Assistance in family law such as powers of attorney, wills, and separation decrees.\n\n\nReason for Leaving:",
+        "experience": {
+            "text": "COMPANY 1  Job Title  CUSTOMER SERVICE REP  Current Employer  No Start Date  05/2015 End Date  12/2016 Responsibilities and Qualifications  Interacts with 75+ customers over the phone daily. Actively listens to customer issues or questions, displaying compassion and empathy for the caller's situation. Processes billing requests, policy changes that do not require a license, resolves customer concerns and documents customer's requests. Ensure facilitation of first call resolution and customer satisfaction on all transactions. Acknowledge and direct customer's requests for additional products or services. Handle requests regarding required documentation and clearly explain any need for follow up on the customer's part. Reason for Leaving  Relocated COMPANY 2  Job Title  Bank Teller  Current Employer  No Start Date  07/2014 End Date  04/2015 Responsibilities and Qualifications  ● Provides account services to customers by receiving deposits and loan payments; cashing checks; issuing savings withdrawals; recording night and mail deposits; selling cashier's checks, traveler's checks, and series e bonds; answering questions in person or on telephone; referring to other bank services. ● Records transactions by logging cashier's checks, traveler's checks, and other special services; preparing currency transaction reports. ● Cross-sells bank products by answering inquiries; informing customers of new services and product promotions; ascertaining customers' needs; directing customers to a branch representative. ● Reconciles cash drawer by proving cash transactions; counting and packaging currency and coins; reconciling loan coupons and other transactions; turning in excess cash and mutilated currency to head teller; maintaining supply of cash and currency. ● Complies with bank operations and security procedures by participating in all dual-control functions; maintaining customer traffic surveys; auditing other tellers' currency; assisting in certification of proof. ● Maintains customer confidence and protects bank operations by keeping information confidential. ● Contributes to team effort by accomplishing related results as needed. Reason for Leaving  Was offered a full time position with another company. COMPANY 3  Job Title  Paralegal Specialist  Current Employer  Yes Start Date  11/2012 End Date  Responsibilities and Qualifications  Provides legal and administrative support in all areas of criminal law, international law, civil/administration law, contract law and fiscal law. Assists judges, Judge Advocates and unit commanders with a wide range of legal matters and judicial work. Provides legal documents in courts-martial, Article 15 actions, and other military justice matters. Review line of duty determinations, AR 15-6 investigations, separation board proceedings, and other administrative law matters. Assistance in family law such as powers of attorney, wills, and separation decrees. Reason for Leaving  ",
+            "relevant_exp": {
+                "relevant_exp_score": 0.5,
+                "analysis": [
+                    {
+                        "keyword": "support",
+                        "occurrences": [
+                            "Yes Start Date  11/2012 End Date  Responsibilities and Qualifications  Provides legal and administrative support in all areas of criminal law, international law, civil/administration law, contract law and fiscal law."
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.2,
+                "analysis": [
+                    {
+                        "keyword": "Operations",
+                        "occurrences": [
+                            "● Complies with bank operations and security procedures by participating in all dual-control functions; maintaining customer traffic surveys; auditing other tellers' currency; assisting in certification of proof.",
+                            "● Maintains customer confidence and protects bank operations by keeping information confidential."
+                        ]
+                    }
+                ]
+            },
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Ensure facilitation of first call resolution and customer satisfaction on all transactions.",
+                        "target_text": "Driving sales and customer satisfaction within retail stores location on various wireless products,accessories and service to customers.",
+                        "score": "0.047"
+                    },
+                    {
+                        "source_text": "No  Responsibilities and Qualifications  ● Provides account services to customers by receiving deposits and loan payments; cashing checks; issuing savings withdrawals; recording night and mail deposits; selling cashier's checks, traveler's checks, and series e bonds; answering questions in person or on telephone; referring to other bank services.",
+                        "target_text": "Driving sales and customer satisfaction within retail stores location on various wireless products,accessories and service to customers.",
+                        "score": "0.031"
+                    }
+                ],
+                "final_syntactic_match_score": 0.029249999999999998
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9265867428628202
+            },
+            "final_exp_score": 1.65583674286282
+        },
+        "skills": {
+            "text": "",
+            "syntactic_match": {
+                "final_syntactic_match_score": 0,
+                "analysis": []
+            },
+            "semantic_match": {
+                "analysis": [],
+                "final_semantic_match_score": 0
+            },
+            "final_skills_score": 0
+        },
+        "exp_duration": {
+            "workspan": [
+                "Start Date  05/2015 End Date  12/2016",
+                "Start Date  07/2014 End Date  04/2015"
+            ],
+            "exp_duration_score": 1.9520000000000004
+        },
+        "education": {
+            "education_score": 1,
+            "text": "Associate  Degree Name  Associate of Arts Degree Status  Now Attending Graduation Date  06/2017 School Name  Central Carolina Community College  Country  USA State  NC Major  Business Administration Licenses, Certifications and Clearance  Paralegal ",
+            "qualification": "Associate Degree"
+        },
+        "total_score": 4.607836742862821
+    },
+    {
+        "cv_name": "Applicant8.docx",
+        "cv_text": "APPLICANT 8\n\n\n\n\n\nSUMMARY\n\n\n\nAs a young individual, I chose to work constantly on developing myself. The way I take care of myself reflects on how I can take care of YOU and YOUR company. I do many things to improve myself everyday including exercising, learning music, going to school. As I take care of myself every day, I will continue to develop your company and make it the best it can be if you let me. \n\n\n\nI plan to provide:\n\n•Excellent customer service\n\n•A drama free environment\n\n• Excelling at what I am required to do\n\n• The ability to master what I know and learn what I don't at a relentless rate.\n\n• To be hungry for more\n\n• Make my employer look even better towards their own boss.\n\n• Help others to succeed\n\n• Work weekends and hours that others won't be inclined to.\n\n• Bring in even more business\n\n• Deal with difficult customers effectively and efficiently\n\n• Create an even better environment for my coworkers\n\n• Help others\n\n• Be a fast and productive worker• Completely drug free. So no smoke breaks!\n\nAuthorized to work in the US for any employer \n\n\n\n\n\nWORK EXPERIENCE\n\n \n\n91B Wheeled Vehicle Mechanic \n\nCompany 1 – 01/2017 to Present \n\n\n\nAfter recently coming out of Basic training and A.I.T. I serve once a month in the army reserves as a wheeled vehicle mechanic.\n\n\n\nCustomer Service Representative \n\nCompany 2 – 11/2014 to 11/2015 \n\n I started off as a cashier in the front and quickly progressed into a photo specialist. As a cashier at the front, I had to maintain security, handle stressed customers because of the holidays, maintain a professional yet firm personality, vacuum, face everything and take out trash. As a Photo specialist, I currently take care of internet, store and send out photo orders. I also have to stock items, mop floors, record cooler and freezer temperatures, sweep, help other associates, count money for managers, Face the store, act as security, stock cooler and freezer, put away go-backs, while being a cashier. \n\n\n\nServer/Waiter/ Cashier/Retail Associate\n\nCompany 3  – 12/2015 to Present\n\n\n\nAs of now this is my current civilian job. I serve food to guests while maintaining a professional attitude. When I am not serving I am in the gift job doing cashier work, merchandising, working truck, and offering assistance to guests. \n\n\n\nServer, Busser \n\nCompany 4  – 08/2014 to 11/2014 \n\n\n\nI started off as a Busser and then got promoted to a Server. I quickly learned the importance of customer service in a fast paced environment. I would be running around all the time to get the customers their order. As a Busser I would clean tables, get people their drinks, and clean the floors daily. When I was promoted to a \n\nServer, I got the opportunity to work as a cashier and take orders while developing a charismatic personality. I would often be the first one to work and the last one to leave. \n\n\n\nEDUCATION \n\n91B Certification in Mechanic \n\nAdvanced Infantry Training - 91B - Fort Lee, VA January 2016 to June 2016 \n\nAssociate in Computer Science \n\nCentral New Mexico Community College - January 2014 to December 2015 \n\nHigh School Diploma \n\nCibola High School May 2014 \n\nAlbuquerque, NM \n\n\n\nSKILLS\n\nMechanic (1 year), Customer Service (3 years), Server (1 year) \n\nMILITARY SERVICE \n\nService Country: United States \n\nBranch: US Army\n\nRank: E-2\n\nDecember 2016 to Present \n\n\n\nCERTIFICATIONS/LICENSES \n\n609 Certification",
+        "experience": {
+            "text": "91B Wheeled Vehicle Mechanic   Company 1 – 01/2017 to Present After recently coming out of Basic training and A.I.T. I serve once a month in the army reserves as a wheeled vehicle mechanic. Customer Service Representative   Company 2 – 11/2014 to 11/2015    I started off as a cashier in the front and quickly progressed into a photo specialist. As a cashier at the front, I had to maintain security, handle stressed customers because of the holidays, maintain a professional yet firm personality, vacuum, face everything and take out trash. As a Photo specialist, I currently take care of internet, store and send out photo orders. I also have to stock items, mop floors, record cooler and freezer temperatures, sweep, help other associates, count money for managers, Face the store, act as security, stock cooler and freezer, put away go-backs, while being a cashier. Server/Waiter/ Cashier/Retail Associate  Company 3  – 12/2015 to Present As of now this is my current civilian job. I serve food to guests while maintaining a professional attitude. When I am not serving I am in the gift job doing cashier work, merchandising, working truck, and offering assistance to guests. Server, Busser   Company 4  – 08/2014 to 11/2014 I started off as a Busser and then got promoted to a Server. I quickly learned the importance of customer service in a fast paced environment. I would be running around all the time to get the customers their order. As a Busser I would clean tables, get people their drinks, and clean the floors daily. When I was promoted to a   Server, I got the opportunity to work as a cashier and take orders while developing a charismatic personality. I would often be the first one to work and the last one to leave. ",
+            "relevant_exp": {
+                "relevant_exp_score": 1.0,
+                "analysis": [
+                    {
+                        "keyword": "retail",
+                        "occurrences": [
+                            "Server/Waiter/ Cashier/Retail Associate  Company 3  –  "
+                        ]
+                    },
+                    {
+                        "keyword": "internet",
+                        "occurrences": [
+                            "As a Photo specialist, I currently take care of internet, store and send out photo orders."
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Server/Waiter/ Cashier/Retail Associate  Company 3  –  ",
+                        "target_text": "Engaging in side-by-side selling with retail associates.",
+                        "score": "0.125"
+                    }
+                ],
+                "final_syntactic_match_score": 0.09375
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9280556546442604
+            },
+            "final_exp_score": 2.02180565464426
+        },
+        "skills": {
+            "text": "Mechanic (1 year), Customer Service (3 years), Server (1 year)   MILITARY SERVICE   Service Country  United States   Branch  US Army  Rank  E-2  December 2016 to Present  609 Certification ",
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Mechanic (1 year), Customer Service (3 years), Server (1 year)   MILITARY SERVICE   Service Country  ",
+                        "target_text": "Great customer service skills",
+                        "score": "0.102"
+                    }
+                ],
+                "final_syntactic_match_score": 0.0765
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9258382605051492
+            },
+            "final_skills_score": 1.0023382605051492
+        },
+        "exp_duration": {
+            "workspan": [
+                "08/2014 to 11/2014",
+                "11/2014 to 11/2015",
+                "12/2015 to Present",
+                "01/2017 to Present"
+            ],
+            "exp_duration_score": 3.161139200000001
+        },
+        "education": {
+            "education_score": 1,
+            "text": "91B Certification in Mechanic   Advanced Infantry Training - 91B - Fort Lee, VA January 2016 to June 2016   Associate in Computer Science   Central New Mexico Community College - January 2014 to December 2015   High School Diploma   Cibola High School May 2014   Albuquerque, NM ",
+            "qualification": "Associate Degree"
+        },
+        "total_score": 7.18528311514941
+    },
+    {
+        "cv_name": "Applicant9.docx",
+        "cv_text": "APPLICANT 9\n\n\t\n\n\t\n\n\tSUMMARY OF QUALIFICATIONS\n\n\t\n\n\t\n\n\t+ yrs of Customer Service Experience\n\n\t2+ yrs of Technical Advisory Experience\n\n2+ yrs of Supervisory Experience\n\n\tExcellent Oral and Written Communication Skills\n\n\tProficient in Microsoft Excel, Word & PowerPoint\n\n\tQuick Learner w/Attention to Detail\n\n\t\n\n\t\n\n\n\nWORK EXPERIENCE\n\n\n\nDebt collector - Company 1                                                                                                            May 2017 - Present\n\nAssist clients with resolving ingoing accounts \n\nFollow all guidelines and laws mandated by the state and federal government\n\nCollect on past due accounts purchased\n\nUpdate information as needed including phone number and address\n\nNotate account financial status and collection efforts\n\n\t\t\n\n\t\t\tTier II Senior Technical Advisor – Company 2\tJun 2014 - July 2016\n\n\t\t\t\tListening to and understand customer issues by asking questions and isolating the issues and/cause \n\n\tUtilizing available resources to identify appropriate solutions for customers;  \n\n\tExplaining product features and benefits, answering questions and setting proper expectations for customer inquiries; \n\n\tSupervise direct reports to ensure they are achieving great customer satisfaction through effective call methods, training, and resolutions techniques; and \n\n\tIdentify and escalate emerging product or customer dissatisfaction issues to next level of management.\n\n\t\t\n\n\t\t\tMember Service Specialist – Company 3                                                                                             06/2012 – 05/2014\n\n\t\t\t\tProvided excellent customer service to customers; \n\n\t\t\t\tReceived, responded to, and directed member phone calls;\n\n\t\t\t\tAddressed member inquiries, questions and concerns regarding enrollment, claims, benefit interpretation, and referrals/authorizations for medical care; and\n\n\t\t\t\tProvided available information upon request and escalated issues as appropriate.\n\n\t\t\n\n\t\tFamily Service Director – Company 4                                                                                                 06/2011 – 06/2012\n\n\t\tOffered counsel and comfort to bereaved families and friends of deceased\n\n\t\tArranged cemetery or graveside details; \n\n\t\tEducated family’s about purchasing burial plots/property as well as provided information on cemetery service options, products, and merchandise; \n\n\t\tCoordinated with funeral homes details such as time and place of services; and \n\n\t\tObtained all information required to complete legal documents. \n\n\t\n\n\t\tTeam Lead/Floor Support – Company 5   \t02/2009 – 01/2011\n\n\tManaged a team of sales reps to work together to achieve best results; \n\n\tAssisted with training of new team members; \n\n\tHandled incoming customer service calls while maintaining high quality, achieving daily sales quota; and\n\n\tWorked all other duties as assigned.\n\n\t\t\t\t\t\n\n\t\t\n\n\t\tEDUCATION\n\n\t\t\n\n\tBusiness Management - Thomas Nelson Community College,  Hampton, Virginia\n\n\tHS Diploma - Bethel High School, Hampton, Virginia",
+        "experience": {
+            "text": "Debt collector - Company 1                                                                                                            May 2017 - Present  Assist clients with resolving ingoing accounts   Follow all guidelines and laws mandated by the state and federal government  Collect on past due accounts purchased  Update information as needed including phone number and address  Notate account financial status and collection efforts  \t\t  \t\t\tTier II Senior Technical Advisor – Company 2\tJun 2014 - July 2016  \t\t\t\tListening to and understand customer issues by asking questions and isolating the issues and/cause   \tUtilizing available resources to identify appropriate solutions for customers;    \tExplaining product features and benefits, answering questions and setting proper expectations for customer inquiries;   \tSupervise direct reports to ensure they are achieving great customer satisfaction through effective call methods, training, and resolutions techniques; and   \tIdentify and escalate emerging product or customer dissatisfaction issues to next level of management.  \t\t  \t\t\tMember Service Specialist – Company 3                                                                                             06/2012 – 05/2014  \t\t\t\tProvided excellent customer service to customers;   \t\t\t\tReceived, responded to, and directed member phone calls;  \t\t\t\tAddressed member inquiries, questions and concerns regarding enrollment, claims, benefit interpretation, and referrals/authorizations for medical care; and  \t\t\t\tProvided available information upon request and escalated issues as appropriate.  \t\t  \t\tFamily Service Director – Company 4                                                                                                 06/2011 – 06/2012  \t\tOffered counsel and comfort to bereaved families and friends of deceased  \t\tArranged cemetery or graveside details;   \t\tEducated family’s about purchasing burial plots/property as well as provided information on cemetery service options, products, and merchandise;   \t\tCoordinated with funeral homes details such as time and place of services; and   \t\tObtained all information required to complete legal documents.   \t  \t\tTeam Lead/Floor Support – Company 5   \t02/2009 – 01/2011  \tManaged a team of sales reps to work together to achieve best results;   \tAssisted with training of new team members;   \tHandled incoming customer service calls while maintaining high quality, achieving daily sales quota; and  \tWorked all other duties as assigned. ",
+            "relevant_exp": {
+                "relevant_exp_score": 1.0,
+                "analysis": [
+                    {
+                        "keyword": "sales",
+                        "occurrences": [
+                            "       Team Lead/Floor Support – Company 5       Managed a team of sales reps to work together to achieve best results;    Assisted with training of new team members;    Handled incoming customer service calls while maintaining high quality, achieving daily sales quota; and   Worked all other duties as assigned."
+                        ]
+                    },
+                    {
+                        "keyword": "support",
+                        "occurrences": [
+                            "       Team Lead/Floor Support – Company 5       Managed a team of sales reps to work together to achieve best results;    Assisted with training of new team members;    Handled incoming customer service calls while maintaining high quality, achieving daily sales quota; and   Worked all other duties as assigned."
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "Utilizing available resources to identify appropriate solutions for customers;     Explaining product features and benefits, answering questions and setting proper expectations for customer inquiries;    Supervise direct reports to ensure they are achieving great customer satisfaction through effective call methods, training, and resolutions techniques; and    Identify and escalate emerging product or customer dissatisfaction issues to next level of management.",
+                        "target_text": "Driving sales and customer satisfaction within retail stores location on various wireless products,accessories and service to customers.",
+                        "score": "0.016"
+                    },
+                    {
+                        "source_text": "        Member Service Specialist – Company 3                                                                                                   Provided excellent customer service to customers;       Received, responded to, and directed member phone calls;      Addressed member inquiries, questions and concerns regarding enrollment, claims, benefit interpretation, and referrals/authorizations for medical care; and      Provided available information upon request and escalated issues as appropriate.",
+                        "target_text": "Driving sales and customer satisfaction within retail stores location on various wireless products,accessories and service to customers.",
+                        "score": "0.016"
+                    }
+                ],
+                "final_syntactic_match_score": 0.012
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9336881985807234
+            },
+            "final_exp_score": 1.9456881985807235
+        },
+        "skills": {
+            "text": "+ yrs of Customer Service Experience   2+ yrs of Technical Advisory Experience  2+ yrs of Supervisory Experience   Excellent Oral and Written Communication Skills   Proficient in Microsoft Excel, Word & PowerPoint   Quick Learner w/Attention to Detail ",
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "+ yrs of Customer Service Experience   2+ yrs of Technical Advisory Experience  2+ yrs of Supervisory Experience   Excellent Oral and Written Communication Skills   Proficient in Microsoft Excel, Word & PowerPoint   Quick Learner w/Attention to Detail",
+                        "target_text": "Great customer service skills",
+                        "score": "0.062"
+                    }
+                ],
+                "final_syntactic_match_score": 0.0465
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9476833525067561
+            },
+            "final_skills_score": 0.994183352506756
+        },
+        "exp_duration": {
+            "workspan": [
+                "Jun 2014 - July 2016",
+                "06/2012 – 05/2014",
+                "02/2009 – 01/2011",
+                "May 2017 - Present",
+                "06/2011 – 06/2012",
+                "2017 - Present"
+            ],
+            "exp_duration_score": 3.656402616320001
+        },
+        "education": {
+            "education_score": 1,
+            "text": "Business Management - Thomas Nelson Community College,  Hampton, Virginia  \tHS Diploma - Bethel High School, Hampton, Virginia ",
+            "qualification": "Associate Degree"
+        },
+        "total_score": 7.596274167407481
+    },
+    {
+        "cv_name": "Applicant10.docx",
+        "cv_text": "APPLICANT 10 \n\n\n\nSUMMARY OF QUALIFICATIONS\n\n• Outstanding customer service skills, diplomatic and patient with all types of individuals and organizational level.  \n\n• Professional in appearance and a strong work ethic. \n\n• Flexible; able and willing to learn new skills\n\nEXPERIENCE\n\n​Stylist ​             \t\t\t\t\t\t\t2008 - Present \n\nCompany 1           \t\t\t\t\t\t\t      Douglasville, GA \n\nI work directly with a diverse group of clients, servicing them with hair care needs, and training them in product lines and application of styling products. Answering multiple phone lines and taking appointments.\n\nTeleSales Associate \t\t\t\t\t\t\t2017 - Present \n\nCompany 2 ​          \t\t\t\t\t\t\t\t           Alpharetta, GA \n\nCustomer service oriented: make phone calls, greet customers in a friendly manner, update accounts via computer software to reflect additional services, attend to details to ensure customers are highly satisfied.\n\nCustomer Care Associate ​            \t\t\t\t\t2009 - 2012\n\nCompany 3        \t\t\t\t\t\t\t\t     Lithia Springs, GA \n\nAnswer incoming calls and provide customer support to new customers. Compile ticket orders daily from new shipments and route merchandise to other stores if needed. Serviced multiple clients with coping needs in the copy center.\n\nCustomer Service Representative/Cashier ​             \t\t\t 2005 - 2006 ​\n\nCompany 4    \t\t\t\t\t\t\t\t\t     Lithia Springs, GA \n\nDuties and responsibilities consisted of stocking in various departments and providing customer assistance with purchasing merchandise. Also sorted merchandise throughout the store and provided customer service throughout the store.\n\n EDUCATION\n\nASSOCIATE OF CRIMINAL JUSTICE ​   \t\t\t\t\t     2013 - 2015 \n\nBrown Mackie College ​ \t \t\t\t\t\t\t\t    Atlanta, GA\n\nBACHELOR OF COSMETOLOGY ​   \t\t\t\t\t\t      2001 - 2003 \n\nChattahoochee Technical College ​            \t\t\t\t\t\t   Marietta, GA \n\nSKILLS \n\nProficient in Microsoft Office, Word Perfect, Excel, Power Point, Writing Reports",
+        "experience": {
+            "text": "​Stylist ​             \t\t\t\t\t\t\t2008 - Present   Company 1           \t\t\t\t\t\t\t      Douglasville, GA   I work directly with a diverse group of clients, servicing them with hair care needs, and training them in product lines and application of styling products. Answering multiple phone lines and taking appointments.  TeleSales Associate \t\t\t\t\t\t\t2017 - Present   Company 2 ​          \t\t\t\t\t\t\t\t           Alpharetta, GA   Customer service oriented  make phone calls, greet customers in a friendly manner, update accounts via computer software to reflect additional services, attend to details to ensure customers are highly satisfied.  Customer Care Associate ​            \t\t\t\t\t2009 - 2012  Company 3        \t\t\t\t\t\t\t\t     Lithia Springs, GA   Answer incoming calls and provide customer support to new customers. Compile ticket orders daily from new shipments and route merchandise to other stores if needed. Serviced multiple clients with coping needs in the copy center.  Customer Service Representative/Cashier ​             \t\t\t 2005 - 2006 ​  Company 4    \t\t\t\t\t\t\t\t\t     Lithia Springs, GA   Duties and responsibilities consisted of stocking in various departments and providing customer assistance with purchasing merchandise. Also sorted merchandise throughout the store and provided customer service throughout the store. ",
+            "relevant_exp": {
+                "relevant_exp_score": 1.5,
+                "analysis": [
+                    {
+                        "keyword": "stores",
+                        "occurrences": [
+                            "Compile ticket orders daily from new shipments and route merchandise to other stores if needed."
+                        ]
+                    },
+                    {
+                        "keyword": "sales",
+                        "occurrences": [
+                            "TeleSales Associate           Company 2 ​                             "
+                        ]
+                    },
+                    {
+                        "keyword": "support",
+                        "occurrences": [
+                            "Answer incoming calls and provide customer support to new customers."
+                        ]
+                    }
+                ]
+            },
+            "nice_to_have_exp": {
+                "nice_to_have_exp_score": 0.0,
+                "analysis": []
+            },
+            "syntactic_match": {
+                "analysis": [],
+                "final_syntactic_match_score": 0.0
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9362329187380987
+            },
+            "final_exp_score": 2.4362329187380984
+        },
+        "skills": {
+            "text": "• Outstanding customer service skills, diplomatic and patient with all types of individuals and organizational level.    • Professional in appearance and a strong work ethic.   • Flexible; able and willing to learn new skills  Proficient in Microsoft Office, Word Perfect, Excel, Power Point, Writing Reports ",
+            "syntactic_match": {
+                "analysis": [
+                    {
+                        "source_text": "• Outstanding customer service skills, diplomatic and patient with all types of individuals and organizational level.",
+                        "target_text": "Great customer service skills",
+                        "score": "0.191"
+                    }
+                ],
+                "final_syntactic_match_score": 0.14325
+            },
+            "semantic_match": {
+                "final_semantic_match_score": 0.9243559844069482
+            },
+            "final_skills_score": 1.0676059844069483
+        },
+        "exp_duration": {
+            "workspan": [
+                "2008 - Present",
+                "2009 - 2012",
+                "2005 - 2006",
+                "2017 - Present"
+            ],
+            "exp_duration_score": 3.8240781395558416
+        },
+        "education": {
+            "education_score": 1,
+            "text": "ASSOCIATE OF CRIMINAL JUSTICE ​   \t\t\t\t\t     2013 - 2015   Brown Mackie College ​ \t \t\t\t\t\t\t\t    Atlanta, GA  BACHELOR OF COSMETOLOGY ​   \t\t\t\t\t\t      2001 - 2003   Chattahoochee Technical College ​            \t\t\t\t\t\t   Marietta, GA ",
+            "qualification": "Associate Degree"
+        },
+        "total_score": 8.32791704270089
+    }
+]
