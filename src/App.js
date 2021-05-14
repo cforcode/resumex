@@ -12,11 +12,11 @@ function App() {
     { name: "Relevant organizations", id: "relevantOrganizations", value: 'TCS' },
   ]
   const [fields, setFields] = useState(inputFields);
-  const [range, setRange] = useState(5);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [maxScore, setMaxScore] = useState(null);
   const [current, setCurrent] = useState(null);
+  const [sortBy, setSortBy] = useState("desc");
 
   useEffect(() => {
     const maxScore = {
@@ -27,13 +27,21 @@ function App() {
     }
 
     setMaxScore(maxScore);
-  }, []);
+    sort();
+  }, [sortBy]);
+
+  function sort() {
+    sortBy === 'asc' ?
+      results.sort((a, b) => (a.total_score > b.total_score) ? 1 : ((b.total_score > a.total_score) ? -1 : 0))
+      :
+      results.sort((a, b) => (b.total_score > a.total_score) ? 1 : ((a.total_score > b.total_score) ? -1 : 0));
+  }
 
   function onSubmit(e) {
     e.preventDefault();
     setLoading(true);
     setSubmitted(false);
-    setTimeout(dummyFunction, 2000);
+    setTimeout(dummyFunction, 1000);
 
   }
 
@@ -82,18 +90,16 @@ function App() {
         <div className="right-panel col-8">
           {submitted ?
             <>
-              {/* <br />
-              <div className="card">
+              <br />
+              <div className="card border-0 mb-1">
                 <div className="card-body">
-                  <input type="range" name="range" className="form-range" id="customRange1" value={range} min="0" max="10" step="0.5"></input>
-
-                  <select className="form-select" aria-label="Default select example">
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
+                  <span>Sort By</span><br />
+                  <select className="form-select" onChange={(e) => setSortBy(e.target.value)} value={sortBy}>
+                    <option value="asc">Ascending Score</option>
+                    <option value="desc">Descending Score</option>
                   </select>
                 </div>
-              </div> */}
-              <br />
+              </div>
               {results.map((result, key) =>
                 <div className="accordion" id={`accordion${key}`} key={key}>
                   <div className="accordion-item">
@@ -156,7 +162,7 @@ function App() {
                       {/* EXPERIENCE DURATION */}
                       <div><br />
                         <h5>EXPERIENCE DURATION <span className="text-primary h2">{Math.round(result.exp_duration.exp_duration_score * 100) / 100}</span></h5>
-                        {result.exp_duration.workspan.map(duration => <li>{duration}</li>)}
+                        {result.exp_duration.workspan.map((duration, key) => <li key={key}>{duration}</li>)}
                       </div>
 
                       {/* SKILLS */}
@@ -192,8 +198,8 @@ function App() {
                           <div><br />
                             <b>Syntactic Match Analysis</b>
                             <ol className="list-group list-group-numbered">
-                              {result.skills.syntactic_match.analysis.map((item) =>
-                                <li className="list-group-item d-flex justify-content-between align-items-start">
+                              {result.skills.syntactic_match.analysis.map((item, key) =>
+                                <li key={key} className="list-group-item d-flex justify-content-between align-items-start">
                                   <div className="ms-2 me-auto">
                                     <div className="font-weight-bold">{item.source_text}</div>
                                     {item.target_text}
@@ -222,7 +228,7 @@ function App() {
             :
             <>
               <div className="center-block">
-                {loading && !submitted && <img src="/scan.gif" />}
+                {loading && !submitted && <img alt="loading" src="/scan.gif" />}
               </div>
             </>
           }
